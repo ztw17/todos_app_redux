@@ -106,3 +106,16 @@ input[placeholder] {
 	margin-right: 5px;
 	cursor: default;
 }
+
+body {
+  background: linear-gradient(270deg, #2b9c7f, #2b31c9, #862bc9);
+  background-size: 600% 600%;
+
+  animation: AnimationName 30s ease infinite;
+}
+
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
